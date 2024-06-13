@@ -1,0 +1,34 @@
+{%load static%}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Team4_Demo_Show_Results</title>
+    </head>
+    <body>
+        <header>
+            <h1><a href="/">Main Page</a></h1>
+        </header>
+	    <p align="center">개화군, 과일길이, 수확군, 착과수, 화방높이, 최종화방번호, 착과군, 꽃수, 수확수, 줄기굵기, 과일폭, 과일무게, 잎 길이, 옆폭, 엽수, 생장길이, 식물길이</p>
+        {{ results|safe }}
+        <p> </p>
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_BLMNG_CLUSTER.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FRT_LENGTH.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_YIELD_CLUSTER.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FRST_TREE_CNT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FWRCT_HGHT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_LAST_FWRCT_NO.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FRST_CLUSTER.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FLWR_CNT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_YIELD_CNT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_STEM_THNS.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FRT_WDTH.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_FRT_WT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_LEAF_LNGTH.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_LEAF_WDTH.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_LEAF_CNT.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_GRTH_LNGTH.png' %}">
+        <img src="{% static 'demo/images/tomato/gaussian_distribution_PLT_LNGTH.png' %}">
+
+    </body>
+</html>
