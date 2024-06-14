@@ -52,73 +52,75 @@ Spark를 사용하여 분석을 진행하였습니다.
 ### Key Column
 
 **Input environment column :**
-PFBS_NTRO_CBDX_CTRN 관측지점실내이산화탄소농도
-EXTN_TPRT 외부온도 
-STRTN_WATER 포화수분(포화 상태일 때 수분량)
-WATER_LACK_VL 수분부족값(포화에서 얼마나 못미치는지)
-EXTN_SRQT 외부일사량(누적광량으로 대체)
-EXTN_ACCMLT_QOFLG 외부누적광량
-NTSLT_SPL_PH_LVL 양액공급산도레벨
-NTSLT_SPL_ELCDT 양액공급전기전도도
-AVE_INNER_TPRT_1_2 평균내부온도
-AVE_INNER_HMDT_1_2 평균내부습도
+- PFBS_NTRO_CBDX_CTRN 관측지점실내이산화탄소농도
+- EXTN_TPRT 외부온도 
+- STRTN_WATER 포화수분(포화 상태일 때 수분량)
+- WATER_LACK_VL 수분부족값(포화에서 얼마나 못미치는지)
+- EXTN_SRQT 외부일사량(누적광량으로 대체)
+- EXTN_ACCMLT_QOFLG 외부누적광량
+- NTSLT_SPL_PH_LVL 양액공급산도레벨
+- NTSLT_SPL_ELCDT 양액공급전기전도도
+- AVE_INNER_TPRT_1_2 평균내부온도
+- AVE_INNER_HMDT_1_2 평균내부습도
 
 **Output column :**
-- Tomato 
-    BLMNG_CLUSTER 개화군
-    FRT_LENGTH 과일길이
-    YIELD_CLUSTER 수확군
-    FRST_TREE_CNT 착과수
-    FWRCT_HGHT 화방높이
-    LAST_FWRCT_NO 최종화방번호
-    FRST_CLUSTER 착과군
-    FLWR_CNT 꽃수
-    YIELD_CNT 수확수
-    STEM_THNS 줄기굵기
-    FRT_WDTH 과일폭
-    FRT_WT 과일무게
-    LEAF_LNGTH 잎 길이
-    LEAF_WDTH 엽폭
-    LEAF_CNT 엽수
-    GRTH_LNGTH 생장길이
-    PLT_LNGTH 식물길이
+- Tomato
+  - BLMNG_CLUSTER 개화군
+  - FRT_LENGTH 과일길이
+  - YIELD_CLUSTER 수확군
+  - FRST_TREE_CNT 착과수
+  - FWRCT_HGHT 화방높이
+  - LAST_FWRCT_NO 최종화방번호
+  - FRST_CLUSTER 착과군
+  - FLWR_CNT 꽃수
+  - YIELD_CNT 수확수
+  - STEM_THNS 줄기굵기
+  - FRT_WDTH 과일폭
+  - FRT_WT 과일무게
+  - LEAF_LNGTH 잎 길이
+  - LEAF_WDTH 엽폭
+  - LEAF_CNT 엽수
+  - GRTH_LNGTH 생장길이
+  - PLT_LNGTH 식물길이
 
 - Strawberry
-    SHPMN_QTY 출하량
-    PH_LVL 산도레벨
-    SGCN 당도
-    FRT_WDTH 과폭
-    FRT_LNGTH 과일길이
-    FRST_RATE 착과비율
-    FRT_WT_WDTH_RATE 과중과폭비
-    SGCN_PH_RATE 당도산도비
-    FRT_WT 과일무게
-    FRST_TREE_CNT 착과수
-    NOT_BLMNG_CNT 미개화수
-    BLMNG_CNT 개화수
-    BLPRD_TPCD 개화기 구분코드
-    FLWRCLSTR_FLWR_NBR 화방꽃수
-    FLWRCLSTR_BDDG_TPCD 화방출뢰기구분코드
-    GRTH_SPD 생장속도
-    LEAF_LNGTH_LEAF_WDTH_RATE 엽장엽폭비
-    ACCMLT_LEAF_CNT 누적엽수
-    LEAF_CNT_INCR_SPD 엽수증가속도
-    AXLRBD_OCRN_TPCD 액아발생구분코드
-    GRTH_LNGTH 생장길이
-    CRN_DIAM 관부직경
-    LEAF_CNT 엽수
-    PTL_LNGTH 엽병장
-    LEAF_WDTH 엽폭
-    LEAF_LNGTH 엽장
-    PLT_LNGTH 식물길이
+  - SHPMN_QTY 출하량
+  - PH_LVL 산도레벨
+  - SGCN 당도
+  - FRT_WDTH 과폭
+  - FRT_LNGTH 과일길이
+  - FRST_RATE 착과비율
+  - FRT_WT_WDTH_RATE 과중과폭비
+  - SGCN_PH_RATE 당도산도비
+  - FRT_WT 과일무게
+  - FRST_TREE_CNT 착과수
+  - NOT_BLMNG_CNT 미개화수
+  - BLMNG_CNT 개화수
+  - BLPRD_TPCD 개화기 구분코드
+  - FLWRCLSTR_FLWR_NBR 화방꽃수
+  - FLWRCLSTR_BDDG_TPCD 화방출뢰기구분코드
+  - GRTH_SPD 생장속도
+  - LEAF_LNGTH_LEAF_WDTH_RATE 엽장엽폭비
+  - ACCMLT_LEAF_CNT 누적엽수
+  - LEAF_CNT_INCR_SPD 엽수증가속도
+  - AXLRBD_OCRN_TPCD 액아발생구분코드
+  - GRTH_LNGTH 생장길이
+  - CRN_DIAM 관부직경
+  - LEAF_CNT 엽수
+  - PTL_LNGTH 엽병장
+  - LEAF_WDTH 엽폭
+  - LEAF_LNGTH 엽장
+  - PLT_LNGTH 식물길이
 
 
 
 ### Gaussian
 **Use Scoring**
 - To predict similar environment status, calculate some env factors with weight, gaussian method.
+
 **Why gaussian?**
 - environment factors follows the gaussian distribution, and all of that factors need appropriate amount, neither too much nor too little.
+
 **Why did we choose this weight?**
 - Gaussian distribution mean probability normalization to 1
   - To calculate all of factors under equal conditions
