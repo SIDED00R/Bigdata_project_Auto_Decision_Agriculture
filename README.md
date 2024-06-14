@@ -8,14 +8,13 @@
 - 우성현 [@samuel426](https://github.com/samuel426)
 - 이재호 [@SIDED00R](https://github.com/SIDED00R)
 - JIN LI [@LJ2021105555](https://github.com/LJ2021105555)
-- 이의준 [
-  @Euijune
-  ](https://github.com/Euijune)
+- 이의준 [@Euijune](https://github.com/Euijune)
 
 ## Data
 
 [스마트팜 빅데이터 플랫폼](https://www.n-farm.kr/dataproduct?page=0&sort=issued&limit=15&category=[%2233%22])
 해당 사이트에서 딸기, 토마토 작물에 대한 데이터를 660MB 확보하였습니다.
+
 나머지 데이터 90MB는
 [도매시장 통합 홈페이지](https://at.agromarket.kr/domeinfo/smallTrade.do) 에서
 Crwaling을 통해 가져왔습니다.
@@ -44,19 +43,21 @@ Spark를 사용하여 분석을 진행하였습니다.
 
 ### 작물별 데이터 통합
 
-1.딸기 총 96470줄 데이터 날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함 2.토마토 총 90899줄 데이터날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함 3.데이터 병합 총 187369줄 데이터날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함
+1. 딸기 총 96470줄 데이터 날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함 
+2. 토마토 총 90899줄 데이터날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함 
+3. 데이터 병합 총 187369줄 데이터날짜, 범주, 종류, 품목, 시장, 법인, 무게, 가격, 킬로그램당 가격 포함
 
 ## 데이터 분석
 
-가우시안
+### Key Column
 
-## Visualization
-
-Django의 프레임워크를 사용하였습니다.
-
-## Demo
-
-데모 실행 방법 작성
+**Input environment column** :
+PFBS_NTRO_CBDX_CTRN 관측지점실법
+```
+ssh -L 50077:localhost:50077 hadoop@133.186.215.216
+cd django
+python manage.py runserver 50077
+```
 
 ## 프로젝트 의의
 
